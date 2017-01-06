@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="validation.css" />
+<form>
+  <h2>Apply For A Loan</h2>
+  <fieldset>
+    <p>Name:</p>
+    <input placeholder="First Name" type="text" tabindex="1" autofocus>
+    <input placeholder="Middle Initial" type="text" tabindex="2" autofocus>
+    <input placeholder="Last Name" type="text" tabindex="3" autofocus>
+  </fieldset>
+  <fieldset>
+    <p>Address:</p>
+    <input placeholder="Street Address" type="text" tabindex="5" autofocus>
+    <input placeholder="City" type="text" tabindex="6" autofocus>
+    <input placeholder="State" type="text" tabindex="7" autofocus>
+    <input placeholder="Zip Code" type="text" tabindex="8" autofocus>
+  </fieldset>
+  <fieldset>
+    <p>Employment:</p>
+    <input placeholder="Occupation" type="text" tabindex="9" autofocus>
+    <input placeholder="Employer" type="text" tabindex="10" autofocus>
+    <input placeholder="Employer Address" type="text" tabindex="11" autofocus>
+  </fieldset>
+  <fieldset>
+    <p>Loan Requst Information:</p>
+    <select>
+      <option value="Loan Type">Loan Type</option>
+      <option value="Commercial">Commercial</option>
+      <option value="Real Estate">Real estate</option>
+      <option value="Personal">Personal</option>
+      <option value="Mortgage">Mortgage</option>
+    </select>
+    <input placeholder="Amount of Loan Being Requested" type="text" tabindex="12" autofocus><br>
+    <p>Length of Loan:</p>
+    <input type="radio" name="length" value="5y"> 5 years<br>
+    <input type="radio" name="length" value="15y"> 15 years<br>
+    <input type="radio" name="length" value="30y"> 30 years<br>
+    <p>Other Conditions:</p>
+    <input type="checkbox" name="other" value="downpayment"> I have a down payment<br>
+    <input type="checkbox" name="other" value="out_state"> Out-of-state resident<br>
+    <input type="checkbox" name="other" value="married"> Married<br>
+    <input type="checkbox" name="other" value="cosigned"> Loan will be co-signed<br>
+  </fieldset>
+  <fieldset>
+    <p>Additional Comments:</p>
+    <input placeholder="(Optional)" type="text" tabindex="12">
+  </fieldset>
+
+  <fieldset>
+    <p>Your Contact Information:</p>
+    <input placeholder="Email Address" type="email" tabindex="13" required>
+    <input placeholder="Phone Number" type="tel" tabindex="14">
+    <input placeholder="LinkedIn URL" type="url" tabindex="15" required>
+  </fieldset>
+  <fieldset>
+    <button name="submit" type="submit">Submit</button>
+  </fieldset>
+</form>
